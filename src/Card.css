@@ -1,0 +1,27 @@
+.card {
+    height: 34vh;
+    width: fit-content;
+    border-radius: 12px;
+    border: 2px solid rgb(10, 10, 10);
+    margin: 10px;
+    overflow:scroll;
+    background-color: rgb(48, 48, 48);
+    color: aquamarine;
+    text-wrap: var(--font-serif);
+}
+
+.cards {
+    display: flex;
+}
+
+p{
+    margin: 12px;
+     color: rgb(149, 117, 59);
+
+
+}
+
+h1{
+     margin: 12px;
+     color: wheat;
+}
