@@ -1,31 +1,47 @@
-// import Navbar from "./Navbar"
-// import Card from "./Card"
-// import "./App.css"
+// import { useState, useEffect } from 'react'
+// import React from 'react'
+// import Navbar from './Navbar'
 
-// function App() {
+// const App = () => {
+//   const [first, setfirst] = useState(1)
+//   const [second, setsecond] = useState(2)
+
+//   useEffect(() => {
+//     alert("This is the first")
+//   }, [first])
+
+//   useEffect(() => {
+//     alert("This is the second")
+//   }, [second])
+
 //   return (
 //     <>
-//    <Navbar/>
-//    <div className="cards">
-//    <Card title="Card is good condition" descreption="card 1 dresp"/>
-//    <Card title="Card is good condition" descreption="card 1 dresp"/>
-//    <Card title="Card is good condition" descreption="card 1 dresp"/>
-//    <Card title="Card is good condition" descreption="card 1 dresp"/>
-//    <Card title="Card is good condition" descreption="card 1 dresp"/>
-//    </div>
-//    </>
+//       {/* <Navbar color={"red " + "green"} /> */}
+
+//       <h1>First: {first}</h1>
+//       <button onClick={() => setfirst(first + 1)}>
+//         Click First
+//       </button>
+
+//       <h1>Second: {second}</h1>
+//       <button onClick={() => setsecond(second + 1)}>
+//         Click Second
+//       </button>
+//     </>
 //   )
 // }
 
 // export default App
 
-
 import React from 'react'
-import Hooks from './Hooks'
+import UseRefe from './UseRefe'
 
 const App = () => {
   return (
-  <Hooks/>
+    <div>
+      <UseRefe/>
+      
+    </div>
   )
 }
 

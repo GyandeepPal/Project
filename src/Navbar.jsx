@@ -1,16 +1,24 @@
 import React from 'react'
 import "./App.css"
+import { useEffect } from 'react'
 
+const Conponant = ({ color }) => {
 
-const Conponant = () => {
+  useEffect(() => {
+    alert("I am the Navbar")
+    return () => {
+      alert("componant is unmounted")
+    }
+    
+  }, [color])
+
+ 
+  
+
   return (
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+    <>
+      Hii I am the boy of {color} hehe...
+    </>
   )
 }
 
